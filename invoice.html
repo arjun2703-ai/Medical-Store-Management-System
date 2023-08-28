@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>MediBud</title>
+	<link rel="stylesheet" type="text/css" href="./css/input.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="./images/logo4.jfif" class="logo">
+            <ul>
+                <li><a href="home2.html">Home</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </div>
+	<div class="main">  	
+		<input type="checkbox" id="chk">
+
+			<div class="signup">
+				<form action="invoice.php" method="post">
+					<label for="chk">Invoice Entry</label>
+					<input type="text" name="vendor_name" placeholder="Vendor Name" required="">
+					<input type="text" name="invoice_no" placeholder="Invoice Number" required="">
+					<input type="text" name="gst_no" placeholder="GST NUMBER" required="">
+                    <input type="text" name="p_rate" placeholder="Purchase Amount">
+                    <input type="text" name="s_rate" placeholder="Selling Amount">
+					<input type="number" name="quantity" placeholder="Quantity">
+                    <input type="text" name="store_id" placeholder="Store ID">
+					<input type="text" name="code" placeholder="Drug Code">
+					<button>Submit</button>
+
+
+				</form>
+			</div>
+
+			
+	</div>
+</body>
+</html>

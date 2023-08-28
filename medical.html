@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>MediBud</title>
+	<link rel="stylesheet" type="text/css" href="./css/input.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="./images/logo4.jfif" class="logo">
+            <ul>
+                <li><a href="home2.html">Home</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </div>
+	<div class="main">  	
+		<input type="checkbox" id="chk">
+
+			<div class="signup">
+				<form action="medical.php" method="post">
+					<label for="chk">Branch Details</label>
+					<input type="text" name="name" placeholder="Store Name" required="">
+					<input type="text" name="store_id" placeholder="Store_id(5 integers)" pattern = "[0-9]{5}" required="">
+					<input type="text" name="location" placeholder="Location" required="">
+                    <input type="number" name="staff_no" placeholder="Number Of Staff">
+                    <input type="date" name="start_date" placeholder="Start Date">
+					<button>Submit</button>
+
+
+				</form>
+			</div>
+
+			
+	</div>
+</body>
+</html>
